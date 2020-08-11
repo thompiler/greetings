@@ -5,6 +5,12 @@ This is the composer branch.
 
 ## Step 1
 
+```
+composer install
+```
+
+## Step 2
+
 Replace the project credentials:
 https://github.com/thompiler/greetings/blob/composer/src/helloworld/greetings.php#L12-L13
 
@@ -14,7 +20,7 @@ https://github.com/thompiler/greetings/blob/composer/src/helloworld/greetings.ph
 Both `keysBlocklist` and the old, deprecated `keysBlacklist` option should be
 supported
 
-## Step 2
+## Step 3
 
 To run it, use:
 
@@ -23,7 +29,7 @@ To run it, use:
 composer hello
 ```
 
-## Step 3
+## Step 4
 
 Check the "context" tab in Airbrake to see if the variables are filtered
 properly
